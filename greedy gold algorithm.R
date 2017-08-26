@@ -33,7 +33,7 @@ best.choice <- function(g){
       optimal.choice <- 'right'
       if(exp.gold(g,'left') >= exp.gold(g,'right'))
             optimal.choice <- 'left'
-      print.round(g,optimal.choice)
+      #print.round(g,optimal.choice)
       return(optimal.choice)
 }
 
